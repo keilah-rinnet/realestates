@@ -1,4 +1,12 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "node ./clientbackend/backend/server.js",
+    "start:app": "expo start --clear"
+  },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^7.18.2",
     "@react-navigation/native": "^7.3.3",
@@ -6,11 +14,15 @@
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
+    "expo": "^46.0.21",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.7.0",
-    "react-native-safe-area-context": "^5.8.0",
-    "react-native-screens": "^4.25.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.9",
+    "react-native-safe-area-context": "4.3.1",
+    "react-native-screens": "~3.15.0",
     "socket.io": "^4.8.3",
     "socket.io-client": "^4.8.3"
   }

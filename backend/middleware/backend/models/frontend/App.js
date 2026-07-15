@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, FlatList, SafeAreaView } from 'react-native';
-import PropertyCard from '../components/PropertyCard';
+import { StyleSheet, FlatList, SafeAreaView } from 'react-native';
+import PropertyCard from './frontend/src/components/PropertyCard';
 
 // Dummy data from our previous step
 const dummyProperties = [
